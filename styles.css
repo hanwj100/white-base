@@ -154,6 +154,7 @@ a {
 
 .join-title {
     font-weight: 700;
+    font-size: 18px;
     margin: 0;
     padding: 0;
 }
@@ -165,6 +166,7 @@ a {
 
 
 .enlist-button {
+    font-size: 30px;
     border-radius: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
