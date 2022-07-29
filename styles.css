@@ -8,14 +8,14 @@ body {
 header,
 .intro,
 .crew,
-.quote
+.quote,
 .join-banner,
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 18%;
+    padding-right: 18%;
 }
 
 header {
@@ -42,7 +42,7 @@ header {
 a {
     text-decoration: none;
     font-size: 18px;
-    color: rgb(186, 186, 186);
+    color: #e5e7eb;
     margin: 10px;
 }
 
@@ -66,7 +66,7 @@ a {
 
 .intro-text .secondary {
     font-size: 18px;
-    color: rgb(186, 186, 186);
+    color: #e5e7eb;
 }
 
 .intro img {
@@ -81,6 +81,7 @@ a {
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    color: #1f2937;
 }
 
 .crew .tiles {
@@ -101,4 +102,36 @@ a {
     object-fit: cover;
     object-position: top;
     border: medium solid #3882f6;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 22%;
+    padding-right: 22%;
+}
+
+.quote-text {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.join-banner {
+    padding: 10px;
+    background-color: #3882f6;
+}
+
+.join-text {
+    display: flex;
+    flex-direction: column;
 }
