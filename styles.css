@@ -173,3 +173,10 @@ a {
     color: #e5e7eb;
     background-color: #3882f6;
 }
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
