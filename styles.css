@@ -1,0 +1,45 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+.intro,
+.crew,
+.quote
+.join-banner,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+header {
+    background-color: #1f2937;
+    padding-top: 10px;
+}
+.logo {
+    margin-right: auto;
+}
+
+.logo img {
+    width: 350px;
+    height: auto;
+}
+
+.links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px;
+}
