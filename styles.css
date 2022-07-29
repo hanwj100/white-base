@@ -75,3 +75,30 @@ a {
     align-self: stretch;
 
 }
+
+.crew {
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.crew .tiles {
+    display: flex;
+}
+.crew-tile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    margin: 20px;
+    color: rgb(117, 117, 117);
+}
+
+.crew img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+    border: medium solid #3882f6;
+}
